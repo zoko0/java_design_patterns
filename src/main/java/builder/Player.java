@@ -17,16 +17,16 @@ final class Player {
         private String position;
         private int height;
 
-        public PlayerBuilder(String name) {
+        PlayerBuilder(String name) {
             this.name = name;
         }
 
-        public PlayerBuilder withPosition(String position) {
+        PlayerBuilder withPosition(String position) {
             this.position = position;
             return this;
         }
 
-        public PlayerBuilder withHeight(int height) {
+        PlayerBuilder withHeight(int height) {
             this.height = height;
             return this;
         }
